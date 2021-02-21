@@ -2,14 +2,10 @@
 
 class Node {
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $item;
 
-    /**
-     * @var Node
-     */
+    /** @var Node */
     private $next;
 
     public function __construct(string $item, ?Node $next = null)
@@ -26,5 +22,10 @@ class Node {
     public function getNext() : ?Node
     {
         return $this->next;
+    }
+
+    public function setNext(Node $node) : void
+    {
+        $this->next = $node;
     }
 }
