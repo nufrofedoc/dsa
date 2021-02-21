@@ -1,6 +1,6 @@
 <?php
 
-class Stack {
+class Stack extends Sequence {
 
     /** @var Node */
     private $last;

@@ -1,6 +1,7 @@
 <?php
 
 include 'class/Node.php';
+include 'class/Sequence.php';
 include 'class/Stack.php';
 
 $stack = new Stack();
